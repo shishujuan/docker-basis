@@ -1,4 +1,4 @@
-/* userns_child_exec.c
+/* userns_child_exec.c, copy from: https://lwn.net/Articles/539940/
  *
  *    Copyright 2013, Michael Kerrisk
  *       Licensed under GNU General Public License v2 or later
