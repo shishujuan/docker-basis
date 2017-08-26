@@ -1,4 +1,4 @@
-/* ns_child_exec.c
+/* ns_child_exec.c, copy from: https://lwn.net/Articles/533492/
 
    Copyright 2013, Michael Kerrisk
    Licensed under GNU General Public License v2 or later
