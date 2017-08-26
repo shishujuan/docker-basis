@@ -1,4 +1,4 @@
-/* ns_user.c
+/* ns_user.c, copy from: https://lwn.net/Articles/539941/
 
    Copyright 2013, Michael Kerrisk
    Licensed under GNU General Public License v2 or later
