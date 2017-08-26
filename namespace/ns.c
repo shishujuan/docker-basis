@@ -1,5 +1,5 @@
 /*
-ns.c: used for namepsace test
+ns.c: used for namepsace test. source from: https://blog.yadutaf.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/
 */
 
 #define _GNU_SOURCE
