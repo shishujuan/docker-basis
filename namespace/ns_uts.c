@@ -1,5 +1,5 @@
 /*
-ns_uts.c: used to test uts namespace. source from: https://blog.yadutaf.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/
+ns_uts.c: used to test uts namespace. copy from: https://blog.yadutaf.fr/2013/12/22/introduction-to-linux-namespaces-part-1-uts/
 (needs root privileges (or appropriate capabilities))
 */
 
