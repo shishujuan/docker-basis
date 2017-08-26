@@ -1,3 +1,6 @@
+/*
+ns_ns.c, copy from: https://blog.yadutaf.fr/2014/01/12/introduction-to-linux-namespaces-part-4-ns-fs/
+*/
 
 #define _GNU_SOURCE
 #include <sys/types.h>
