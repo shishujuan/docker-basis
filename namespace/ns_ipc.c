@@ -1,5 +1,5 @@
 /*
-    ns_pipe.c
+    ns_pipe.c, copy from https://blog.yadutaf.fr/2013/12/28/introduction-to-linux-namespaces-part-2-ipc/
 */
 
 #define _GNU_SOURCE
