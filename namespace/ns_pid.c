@@ -1,5 +1,5 @@
 /*
-ns_pid.c
+ns_pid.c, copy from: https://blog.yadutaf.fr/2014/01/05/introduction-to-linux-namespaces-part-3-pid/
 */
 #define _GNU_SOURCE
 #include <sys/types.h>
