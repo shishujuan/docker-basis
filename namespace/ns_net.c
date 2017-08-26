@@ -1,5 +1,5 @@
 /*
-ns_net.c
+ns_net.c, copy from: https://blog.yadutaf.fr/2014/01/19/introduction-to-linux-namespaces-part-5-net/
 */
 
 #define _GNU_SOURCE
@@ -63,7 +63,8 @@ int main()
   // further init: create a veth pair
   char* cmd;
   
-  //注：设置netns的时候参数可以是namespace的名字如之前的demo，或者位于那个namespace中的进程的PID，这里用的是位于新namespace的子进程PID。  asprintf(&cmd, "ip link set veth1 netns %d", child_pid);
+  //注：设置netns的时候参数可以是namespace的名字如之前的demo，或者位于那个namespace中的进程的PID，这里用的是位于新namespace的子进程PID。
+  asprintf(&cmd, "ip link set veth1 netns %d", child_pid);
   system("ip link add veth0 type veth peer name veth1");
   system(cmd);
   system("ip link set veth0 up");
