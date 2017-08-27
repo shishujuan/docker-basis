@@ -3,4 +3,4 @@
 [https://lwn.net/Articles/531114/#series_index](https://lwn.net/Articles/531114/#series_index) 这两个系列博客的翻译整合，加入了部分自己的理解。示例代码也全部来自以上两个系列文章。
 
 * 我对Linux namespace的总结的博文 [Docker基础技术-Linux Namespace
-](http://www.jianshu.com/p/353eb8d8eb05)，内容较多，难免有错漏，请大家指正。
+](https://github.com/shishujuan/docker-basis/edit/master/namespace.md)，内容较多，难免有错漏，请大家指正。
